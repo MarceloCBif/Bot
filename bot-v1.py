@@ -162,7 +162,7 @@ TEMPLATE = """
 
                                 <div class="mb-3">
                                     <label for="gale" class="form-label">Gales (ex: 0.006, 0.012, 0.024, 0.048)</label>
-                                    <input type="text" id="gale" name="gale" class="form-control" value="0.006,0.012,0.024,0.048,0.096" required pattern="^(\d+(\.\d+)?)(,\d+(\.\d+)?)*$">
+                                    <input type="text" id="gale" name="gale" class="form-control" value="0.006,0.012,0.024,0.048,0.096" required pattern="^(\\d+(\\.\\d+)?)(,\\d+(\\.\\d+)?)*$">
                                     <div class="invalid-feedback">Informe os Gales no formato correto, separados por vírgula. Ex: 1.5,2,2.5</div>
                                 </div>
                                 <div class="mb-3">
