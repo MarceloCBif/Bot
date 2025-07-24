@@ -1,14 +1,4 @@
-import os
-import time
-import logging
-import threading
-import pandas as pd
-import math
-import traceback
-from binance.client import Client
-from binance.exceptions import BinanceAPIException
-from flask import Flask, render_template_string, request, redirect, url_for, session, jsonify
-from db import init_db, salvar_operacao, buscar_operacoes
-from datetime import datetime
-
-from werkzeug.middleware.proxy_fix import ProxyFix
+flask
+pandas
+python-binance
+werkzeug
